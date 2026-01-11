@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets"
+public_folder: "/assets"
+
+collections:
+  - name: "about"
+    label: "About Me"
+    files:
+      - label: "About Content"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - { label: "Text", name: "body", widget: "markdown" }
+
+  - name: "projects"
+    label: "Projects"
+    files:
+      - label: "Project List"
+        name: "projects"
+        file: "content/projects.json"
+        fields:
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "string" }
+              - { label: "Link", name: "link", widget: "string", required: false }
