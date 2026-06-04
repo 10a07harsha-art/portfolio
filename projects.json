@@ -1,0 +1,18 @@
+{
+  "projects": [
+    {
+      "title": "Personal Portfolio Website",
+      "description": "A modern responsive portfolio website built using HTML, CSS and JavaScript.",
+      "link": "https://github.com/10a07harsha-art"
+    },
+    {
+      "title": "Interactive Web Application",
+      "description": "Developed dynamic web pages using JavaScript DOM manipulation and responsive design."
+    },
+    {
+      "title": "GitHub Project Collection",
+      "description": "Collection of academic and personal development projects hosted on GitHub.",
+      "link": "https://github.com/10a07harsha-art"
+    }
+  ]
+}
