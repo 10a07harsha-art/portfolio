@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Harsha P | Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <style>
 
+  <style>
 .navbar {
   position: sticky;
   top: 0;
@@ -15,6 +15,7 @@
   border-bottom: 1px solid #eee;
   z-index: 1000;
 }
+
 .nav-inner {
   max-width: 1100px;
   margin: auto;
@@ -23,22 +24,27 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .brand {
   font-weight: 700;
   letter-spacing: 0.5px;
 }
+
 .links a {
   margin-left: 16px;
   text-decoration: none;
   color: #333;
   font-weight: 500;
 }
-.links a:hover { color: #4CAF50; }
 
+.links a:hover {
+  color: #4CAF50;
+}
 
 .cta {
   margin-top: 28px;
 }
+
 .btn {
   display: inline-block;
   padding: 12px 20px;
@@ -47,18 +53,20 @@
   font-weight: 600;
   margin: 0 6px;
 }
+
 .btn.primary {
   background: #fff;
   color: #2e7d32;
 }
+
 .btn.ghost {
   border: 2px solid rgba(255,255,255,0.8);
   color: #fff;
 }
+
 .btn.ghost:hover {
   background: rgba(255,255,255,0.15);
 }
-
 
 .skills {
   display: flex;
@@ -66,6 +74,7 @@
   gap: 12px;
   margin-top: 10px;
 }
+
 .skills span {
   background: #e8f5e9;
   color: #2e7d32;
@@ -73,16 +82,31 @@
   border-radius: 999px;
   font-weight: 500;
 }
+
+.contact-links {
+  margin-top: 20px;
+}
+
+.contact-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: 600;
+}
   </style>
 </head>
+
 <body>
+
 <nav class="navbar">
   <div class="nav-inner">
-    <span class="brand">MyPortfolio</span>
+    <span class="brand">Harsha Portfolio</span>
+
     <div class="links">
       <a href="#about">About</a>
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
     </div>
   </div>
 </nav>
@@ -90,6 +114,7 @@
 <header class="hero">
   <h1>Harsha P</h1>
   <p>Web Developer • Designer • Student</p>
+
   <div class="cta">
     <a href="#projects" class="btn primary">View Projects</a>
     <a href="resume.pdf" download class="btn ghost">Download CV</a>
@@ -100,45 +125,67 @@
 
   <section class="card" id="about">
     <h2>About Me</h2>
+
     <p id="about-text">
-      I am a passionate learner focused on web development and modern UI design.
-      I enjoy building clean, responsive, and user-friendly websites.
+      I am a passionate web development student focused on creating modern,
+      responsive, and user-friendly websites. I enjoy learning new technologies,
+      improving my UI/UX skills, and building projects that solve real-world problems.
     </p>
   </section>
 
   <section class="card" id="projects">
     <h2>Projects</h2>
+
     <div class="projects-grid" id="project-list">
+
       <div class="project-card">
-        <h3>Project One</h3>
-        <p>Simple responsive website using HTML & CSS.</p>
+        <h3>Personal Portfolio Website</h3>
+        <p>Modern responsive portfolio website built using HTML, CSS and JavaScript.</p>
       </div>
+
       <div class="project-card">
-        <h3>Project Two</h3>
-        <p>JavaScript-based interactive application.</p>
+        <h3>Interactive Web Application</h3>
+        <p>JavaScript-based interactive features using DOM manipulation.</p>
       </div>
+
       <div class="project-card">
-        <h3>Project Three</h3>
-        <p>Personal portfolio with modern UI.</p>
+        <h3>GitHub Project Collection</h3>
+        <p>Collection of academic and personal projects hosted on GitHub.</p>
       </div>
+
     </div>
   </section>
 
   <section class="card" id="skills">
     <h2>Skills</h2>
+
     <div class="skills">
       <span>HTML</span>
       <span>CSS</span>
       <span>JavaScript</span>
       <span>Responsive Design</span>
       <span>UI/UX Basics</span>
+      <span>Git</span>
+      <span>GitHub</span>
+    </div>
+  </section>
+
+  <section class="card" id="contact">
+    <h2>Contact</h2>
+
+    <p>Email: 10a07harsha@email.com</p>
+    <p>Phone: +91 8660908010</p>
+
+    <div class="contact-links">
+      <a href="https://github.com/10a07harsha-art" target="_blank">GitHub</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
     </div>
   </section>
 
 </main>
 
 <footer class="footer">
-  <p>© 2026 Your Name. All rights reserved.</p>
+  <p>© 2026 Harsha P. All rights reserved.</p>
 </footer>
 
 <script src="script.js"></script>
